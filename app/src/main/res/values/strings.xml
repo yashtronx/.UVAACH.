@@ -1,0 +1,18 @@
+<resources>
+    <string name="tfe_od_app_name" translation_description="Object Detection demo app [CHAR_LIMIT=40]">UVAACH</string>
+    <string name="tfe_od_camera_error" translation_description="Error regarding camera support[CHAR_LIMIT=40]">This device doesn\'t support Camera2 API.</string>
+    <string name="title1">Deafness and hearing loss</string>
+    <string name="title2">Dumbness</string>
+    <string name="title3">Blindness</string>
+    <string name="titled1">By deafness one gains in one respect more than one loses; one misses more nonsense than sense.</string>
+    <string name="titled2">The great thing about being young and dumb is that we dont know what we cant do.</string>
+    <string name="titled3">The most beautiful things in the world cannot be seen or even touched — they must be felt with the heart.</string>
+    <string name="description">hello</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="done">Done</string>
+    <string name="bchat">Chat</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

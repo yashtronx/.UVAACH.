@@ -1,0 +1,48 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="org.tensorflow.lite.examples.detection">
+
+    <uses-sdk />
+
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/tfe_od_app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:largeHeap="true"
+        android:name= ".Global"
+        android:theme="@style/AppTheme.ObjectDetection">
+        <activity android:name=".BChat"></activity>
+        <activity android:name=".Deaff" />
+        <activity android:name=".Blind" />
+        <activity android:name=".Deaf" />
+        <activity android:name=".DumbCommon" />
+        <activity android:name=".Dumbkey" />
+        <activity android:name=".Dumbb" />
+        <activity android:name=".Dumb" />
+        <activity android:name=".IntroActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".BlindDetection"/>
+        <activity
+            android:name=".DetectorActivity"
+            android:label="@string/tfe_od_app_name"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+</manifest>

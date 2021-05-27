@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        style="@style/loginType"
+        android:background="#000000" >
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/appCompatImageButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#3f48cc"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:background="#3f48cc"
+                android:src="@drawable/hand"
+                android:onClick="gta"
+                app:layout_constraintBottom_toBottomOf="@+id/appCompatImageButton"
+                app:layout_constraintEnd_toEndOf="@+id/appCompatImageButton"
+                app:layout_constraintStart_toStartOf="@+id/appCompatImageButton"
+                app:layout_constraintTop_toTopOf="@+id/appCompatImageButton"
+                tools:ignore="MissingConstraints"
+                android:clickable="true"
+                android:focusable="true"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/loginType"
+        android:background="#000000" >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/appCompatImageButton2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ff0055"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:background="#ff0055"
+                android:src="@drawable/message"
+                app:layout_constraintBottom_toBottomOf="@+id/appCompatImageButton2"
+                app:layout_constraintEnd_toEndOf="@+id/appCompatImageButton2"
+                app:layout_constraintStart_toStartOf="@+id/appCompatImageButton2"
+                app:layout_constraintTop_toTopOf="@+id/appCompatImageButton2"
+                tools:ignore="MissingConstraints"
+                android:onClick="gta1"
+                android:clickable="true"
+                android:focusable="true"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+</LinearLayout>
