@@ -1,6 +1,6 @@
 The main idea of this project is to somehow reduce the barrier of communication between deaf-dumb and normal people. To minimize this barrier, the proposed device converts their hand gestures into voice which a normal person can understand.
 
-BLIND section(made seperately to work independently without any hastle to blind people) REPO -- https://github.com/yashtronx/_Blind_
+BLIND section(made seperately to work independently without any hastle to blind people) REPO -- [link](https://github.com/yashtronx/_Blind_)
 
 
 TO RUN THE FINAL VERSION OF APPLICATION , BOTH APKS MENTIONED BELOW ARE REQUIRED TO BE INSTALLED FOR FULL FUNCTIONALITY
