@@ -1,1 +1,1 @@
-
+The main idea of this project is to somehow reduce the barrier of communication between deaf-dumb and normal people. To minimize this barrier, the proposed device converts their hand gestures into voice which a normal person can understand.
